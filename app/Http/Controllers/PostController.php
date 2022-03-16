@@ -14,6 +14,7 @@ class PostController extends Controller
     public function index()
     {
         //
+        return view('dashboard.posts');
     }
 
     /**
@@ -24,6 +25,7 @@ class PostController extends Controller
     public function create()
     {
         //
+        return view('dashboard.posts');
     }
 
     /**
@@ -45,8 +47,7 @@ class PostController extends Controller
      */
     public function show($id)
     {
-        //
-        retun "show: "|
+        // 
     }
 
     /**
